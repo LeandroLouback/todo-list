@@ -9,4 +9,4 @@
 - Javascript
 - Git and Github
 
-Link: leandrolouback.github.io/todo-list
+[Link](https://leandrolouback.github.io/todo-list)
