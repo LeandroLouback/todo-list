@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leandro's Todo App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <header>
+    TO-DO LIST
+  </header>
+  <main class="container">
+    <div class="input-container">
+      <div class="todo-title-container">
+        <div class="todo-title-text">
+          To-do:
+        </div>
+        <input id="todo-title" type="text" />
+      </div>
+      <div class="date-picker-container">
+        <div class="date-picker-text">
+          Date:
+        </div>
+        <input id="date-picker" type="date" />
+      </div>
+      <button onclick="addTodo()">Add</button>
+    </div>
+    <div id="todo-list"></div>
+  </main>
+  <script src="todo.js"></script>
+</body>
+</html>
